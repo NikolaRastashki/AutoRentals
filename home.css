@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); /* Import-ваме шрифт*/
+
+*{ /* Настройки за цялата страница*/
+    background-color: #222; /* сетваме фон */  
+    font-family: 'Merriweather', serif; /* сетваме шрифт */
+}
+
+header { /* Настройки за Header-a */
+    display: flex; /* Намества обектите на Header-a "където може" */
+    justify-content: space-between; /* Задава растояние между обектите */
+    align-items: center; /* Намества обектите по средата(по височина) */ 
+}
+
+.Logo{ /* Настройки за логото */
+    margin-left: 10px; /* Задава малко разстояние отляво на логото */
+}
+
+.Links a{ /* Настройки за линковете */
+    margin-right: 20px; /* Задава малко разстояние отдясно на всеки от линковете */
+    font-size: 20px; /* Задава размер на шрифта */
+    text-decoration: none; /* Премахва линията под линковете*/
+    color: #ccc; /* Задава цвят на линковете*/
+}
+
+
+  
